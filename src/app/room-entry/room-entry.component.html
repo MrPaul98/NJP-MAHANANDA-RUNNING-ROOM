@@ -1,45 +1,68 @@
 <div class="room-entry">
-<mat-form-field appearance="outline" class="full-width space">
-    <mat-label>Guest Id</mat-label>
-    <input matInput type="text" placeholder="Enter Guest Id">
-</mat-form-field>
-<mat-form-field appearance="outline" class="full-width space">
+  <mat-form-field appearance="outline" class="full-width space">
     <mat-label>Choose Room No</mat-label>
     <mat-select>
-      <mat-option value="option1">Option 1</mat-option>
-      <mat-option value="option2" disabled>Option 2 (disabled)</mat-option>
-      <mat-option value="option3">Option 3</mat-option>
+      <mat-option value="option1">101</mat-option>
+      <mat-option value="option2" disabled>102 (disabled)</mat-option>
+      <mat-option value="option3">103</mat-option>
     </mat-select>
-</mat-form-field>
-<mat-form-field appearance="outline" class="full-width space">
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="full-width space">
     <mat-label>Choose Bed No</mat-label>
     <mat-select>
-      <mat-option value="option1">Option 1</mat-option>
-      <mat-option value="option2" disabled>Option 2 (disabled)</mat-option>
-      <mat-option value="option3">Option 3</mat-option>
+      <mat-option value="option1">Bed 1</mat-option>
+      <mat-option value="option2" disabled>Bed 2 (disabled)</mat-option>
+      <mat-option value="option3">Bed 3</mat-option>
     </mat-select>
-</mat-form-field>
-<mat-form-field appearance="outline" class="full-width space">
+  </mat-form-field>
+</div>
+<div class="room-entry">
+  <mat-form-field appearance="outline" class="full-width space">
+    <mat-label>Guest Id</mat-label>
+    <input matInput type="text" placeholder="Enter Guest Id" />
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="full-width space">
     <mat-label>Guest Name</mat-label>
-    <input matInput type="text" placeholder="Enter Guest Name">
+    <input matInput type="text" placeholder="Enter Guest Name" />
   </mat-form-field>
   <mat-form-field appearance="outline" class="full-width space">
     <mat-label>Designation</mat-label>
-    <input matInput type="text" placeholder="Enter Designation">
+    <input matInput type="text" placeholder="Enter Designation" />
   </mat-form-field>
+</div>
+<div class="room-entry">
   <mat-form-field appearance="outline" class="full-width space">
-    <mat-label>Check Date</mat-label>
-    <input matInput placeholder="Choose a date" type="datetime-local">
+    <mat-label>Check In Date</mat-label>
+    <input matInput placeholder="Choose a date" type="datetime-local" />
     <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-    <mat-datepicker #picker></mat-datepicker> -->
-    <mat-datepicker ></mat-datepicker>
+      <mat-datepicker #picker></mat-datepicker> -->
+    <mat-datepicker></mat-datepicker>
   </mat-form-field>
   <mat-form-field appearance="outline" class="full-width space">
-    <mat-label>Search Pension Details</mat-label>
-    <input matInput type="text" placeholder="Enter Adhaar Number">
+    <mat-label>Train No.</mat-label>
+    <input matInput type="text" placeholder="Enter Adhaar Number" />
+  </mat-form-field>
+</div>
+<div class="room-entry">
+  <mat-form-field appearance="outline" class="full-width space">
+    <mat-label>Check Out Date</mat-label>
+    <input matInput placeholder="Choose a date" type="datetime-local" />
+    <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker> -->
+    <mat-datepicker></mat-datepicker>
   </mat-form-field>
   <mat-form-field appearance="outline" class="full-width space">
-    <mat-label>Search Pension Details</mat-label>
-    <input matInput type="text" placeholder="Enter Adhaar Number">
+    <mat-label>Train No.</mat-label>
+    <input matInput type="text" placeholder="Enter Adhaar Number" />
+  </mat-form-field>
+</div>
+<div class="room-entry">
+  <mat-form-field appearance="outline" class="full-width space">
+    <mat-label>Guest Address</mat-label>
+    <textarea matInput placeholder="Enter Guest Address"></textarea>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="full-width space">
+    <mat-label>Guest Contact No.</mat-label>
+    <input matInput type="text" placeholder="Enter Contact No." />
   </mat-form-field>
 </div>

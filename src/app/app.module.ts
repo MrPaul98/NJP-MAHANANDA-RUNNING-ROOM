@@ -19,10 +19,12 @@ import {
 
 
 import { RoomEntryComponent } from './room-entry/room-entry.component';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RoomEntryComponent
+    RoomEntryComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
