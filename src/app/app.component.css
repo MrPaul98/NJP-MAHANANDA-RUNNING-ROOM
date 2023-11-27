@@ -1,9 +1,8 @@
 .content {
   text-align: center;
   margin-top: 20px;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   align-items: center;
-  width: fit-content;
 }
 .example-container {
   width: 100%;

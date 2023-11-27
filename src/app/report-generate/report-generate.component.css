@@ -1,5 +1,5 @@
 .report {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -7,7 +7,14 @@
   padding: 10px;
   flex: 0 0 23%;
 }
-
+.container {
+  height: 100%;
+  width: 100%;
+}
 .report-table {
-  padding: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+.report-table-h{
+  text-align: center;
 }
