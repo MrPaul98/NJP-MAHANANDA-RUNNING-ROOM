@@ -1,0 +1,13 @@
+.report {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.report > * {
+  padding: 10px;
+  flex: 0 0 23%;
+}
+
+.report-table {
+  padding: 20px;
+}

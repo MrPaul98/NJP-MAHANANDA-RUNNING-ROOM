@@ -1,6 +1,9 @@
-.container {
+.content {
   text-align: center;
   margin-top: 20px;
+  padding-left: 5%;
+  align-items: center;
+  width: fit-content;
 }
 .example-container {
   width: 100%;
@@ -23,18 +26,4 @@
 }
 b {
   color: black;
-}
-
-.header {
-  height: 10%;
-  display: flex;
-  flex: content;
-  justify-content: center;
-  background-color: #3f51b5;
-  font-weight: bold;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: x-large;
-  align-items: center;
-  padding-left: 10px;
-  color: #fff;
 }

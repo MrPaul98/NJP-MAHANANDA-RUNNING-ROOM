@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="report">
+    <mat-form-field appearance="outline" class="full-width space">
+      <mat-label>From Date</mat-label>
+      <input matInput placeholder="Choose a date" type="datetime-local" />
+      <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker> -->
+      <mat-datepicker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width space">
+      <mat-label>To Date</mat-label>
+      <input matInput placeholder="Choose a date" type="datetime-local" />
+      <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker> -->
+      <mat-datepicker></mat-datepicker>
+    </mat-form-field>
+  </div>
+  <button (click)="export()" mat-raised-button>Generate Report</button>
+</div>
+<table id="report-table" class="report-table">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Designation</th>
+    <th>Ph No.</th>
+    <th>Check In Date time</th>
+    <th>Train No. Duing Checkin</th>
+    <th>Check In Date time</th>
+    <th>Train No. During Checkout</th>
+    <th>Booked Room</th>
+  </tr>
+  <tr *ngFor="let item of guestList">
+    <td>{{ item.id }}</td>
+    <td>{{ item.name }}</td>
+    <td>{{ item.designation }}</td>
+    <td>{{ item.contact }}</td>
+    <td>{{ item.checkin_time }}</td>
+    <td>{{ item.checkin_train }}</td>
+    <td>{{ item.checkout_time }}</td>
+    <td>{{ item.checkin_train }}</td>
+    <td>{{ item.room }}</td>
+  </tr>
+</table>
