@@ -23,6 +23,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReportGenerateComponent } from './report-generate/report-generate.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MealBokingComponent } from './meal-boking/meal-boking.component';
+import { GuesteComponent } from './gueste/gueste.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +33,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FooterComponent,
     ReportGenerateComponent,
     PageNotFoundComponent,
+    MealBokingComponent,
+    GuesteComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +51,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     RouterModule.forRoot([
       { path: 'room-entry', component: RoomEntryComponent },
       { path: 'report', component: ReportGenerateComponent },
+      { path: 'meal-entry', component: MealBokingComponent},
+      {path: 'search-guest', component: GuesteComponent},
       { path: '**', component: PageNotFoundComponent },
     ]),
   ],

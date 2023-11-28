@@ -1,0 +1,16 @@
+
+.room-entry {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* .room-entry > * {
+    padding: 5px;
+    flex: 0 0 15%;
+  } */
+
+  .me {
+    float: right;
+    padding-right: 10px;
+  }
+  
